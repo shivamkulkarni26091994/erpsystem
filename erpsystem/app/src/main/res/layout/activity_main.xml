@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create your account"/>
+
+    <LinearLayout
+       android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:hint="Your Full Name"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:background="@drawable/edittext_bg_rounded_corners"/>
+            <EditText
+                android:layout_marginTop="5dp"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:hint="Enter Email"
+            android:inputType="text"
+            android:singleLine="true"
+            android:background="@drawable/edittext_bg_rounded_corners"
+            android:textColor="@android:color/black"/>
+            <EditText
+                android:layout_marginTop="5dp"
+            android:id="@+id/mobileno"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:hint="Your Mobile No."
+            android:inputType="phone"
+            android:singleLine="true"
+            android:ems="10"
+            android:background="@drawable/edittext_bg_rounded_corners"
+            android:textColor="@android:color/black"/>
+            <EditText
+                android:layout_marginTop="5dp"
+            android:id="@+id/address"
+            android:background="@drawable/edittext_bg_rounded_corners"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:hint="Enter Your Address"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@android:color/black"/>
+            <EditText
+            android:id="@+id/gstno"
+                android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:hint="Your GST No."
+            android:textColor="@android:color/black"
+            android:background="@drawable/edittext_bg_rounded_corners"
+            android:inputType="text"
+            android:singleLine="true"/>
+            <EditText
+                android:layout_marginTop="5dp"
+            android:id="@+id/panno"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:hint="Your PAN No."
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:background="@drawable/edittext_bg_rounded_corners"
+            />
+            <EditText
+                android:layout_marginTop="5dp"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:hint="Enter Password"
+            android:inputType="text"
+            android:singleLine="true"
+            android:background="@drawable/edittext_bg_rounded_corners"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+            <LinearLayout
+android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="By clicking Register, you agree to the Terms and Conditions set out by this,including our Cookie use."
+            />
+            </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/register"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#FF0000"
+        android:background="@drawable/button_bg_rounded_corners"/>
+        <TextView
+        android:id="@+id/loginpage"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+            android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already registered. Login!"/>
+    </LinearLayout>
+</LinearLayout>
